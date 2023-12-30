@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: #f8f8f8;
+}
+/* .bd-navbar {
+    padding: .75rem 0;
+    background-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(255,255,255,0.15);
+} */
+.about__detail {
+    padding: 77px 0 112px 0;
+}
+.about__detail .about__img {
+    height: 481px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.section__title span{
+    color: #D30D86;
+}
+.section__title sup{
+    color : #009EE3;
+    font-style: italic;
+    font-family: 'Roboto Slab', cursive;
+    
+}
+.footer__img img {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+    transition: all 0.5s ease;
+}
+.footer__desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 0;
+}.footer__title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+    position: relative;
+}
+.footer__menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.footer__menu--contact ul li a {
+    color: #040101;
+}
+.footer__menu--contact ul li {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer, .navbar     {
+    color: #000000;
+}
+.accordion{
+    background-color: white;
+}
+.accordion-title {
+    padding: 20px 60px 17px 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+} 
+.accordion-title i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    color: var(--primary-color);
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    line-height: 40px;
+    background-color: transparent;
+}.accordion-title.collapsed i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: 15px;
+}
